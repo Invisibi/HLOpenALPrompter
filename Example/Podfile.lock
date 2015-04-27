@@ -1,0 +1,17 @@
+PODS:
+  - FBSnapshotTestCase (1.7)
+  - HLOpenALPrompter (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HLOpenALPrompter (from `../`)
+
+EXTERNAL SOURCES:
+  HLOpenALPrompter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
+  HLOpenALPrompter: a94dbde15380ce9dadaf6a9aadcbe6518da081b9
+
+COCOAPODS: 0.36.0

@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HLOpenALPrompter', :exclusive => true do
+  pod "HLOpenALPrompter", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "HLOpenALPrompter", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
