@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		B92EFFBB1AEE47C700153306 /* recording_start.caf in Resources */ = {isa = PBXBuildFile; fileRef = B92EFFBA1AEE47C700153306 /* recording_start.caf */; };
 		BB8E7CF4BE23AAB389CA67DB /* libPods-HLOpenALPrompter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B588377C449FD541056AD1D /* libPods-HLOpenALPrompter.a */; };
 		FBE3157B04C99807F8D918F1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D0CC3BCEEA900B3058DEEC /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		9B588377C449FD541056AD1D /* libPods-HLOpenALPrompter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLOpenALPrompter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86366F79DB03C7DBACE35E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B8861C3E633D3AFDAC5B3E97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B92EFFBA1AEE47C700153306 /* recording_start.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = recording_start.caf; sourceTree = "<group>"; };
 		B98A96670904E2C6267DF436 /* Pods-HLOpenALPrompter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLOpenALPrompter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLOpenALPrompter/Pods-HLOpenALPrompter.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D0CC3BCEEA900B3058DEEC /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* HLOpenALPrompter */ = {
 			isa = PBXGroup;
 			children = (
+				B92EFFB81AEE47C700153306 /* Resouces */,
 				6003F59C195388D20070C39A /* HLAppDelegate.h */,
 				6003F59D195388D20070C39A /* HLAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -182,6 +185,22 @@
 				A86366F79DB03C7DBACE35E0 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B92EFFB81AEE47C700153306 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				B92EFFB91AEE47C700153306 /* SampleSounds */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		B92EFFB91AEE47C700153306 /* SampleSounds */ = {
+			isa = PBXGroup;
+			children = (
+				B92EFFBA1AEE47C700153306 /* recording_start.caf */,
+			);
+			path = SampleSounds;
 			sourceTree = "<group>";
 		};
 		C502334EA3F50A28314885D5 /* Pods */ = {
@@ -279,6 +298,7 @@
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				B92EFFBB1AEE47C700153306 /* recording_start.caf in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

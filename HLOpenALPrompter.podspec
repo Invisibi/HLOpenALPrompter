@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/HLOpenALPrompter"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "KenKuan" => "kenkuan@invisibi.com" }
+  s.author           = { "KenKuan" => "kenkuan@hooloop.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HLOpenALPrompter.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     'HLOpenALPrompter' => ['Pod/Assets/*.png']
   }
 
+  s.frameworks = 'OpenAL'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -10,4 +10,6 @@
 
 @interface HLViewController : UIViewController
 
+- (IBAction)play:(id)sender;
+
 @end

@@ -7,23 +7,24 @@
 //
 
 #import "HLViewController.h"
+#import <HLOpenALPrompter/HLOpenALPrompter.h>
 
 @interface HLViewController ()
+
+@property (nonatomic) HLOpenALPrompter *openALPrompter;
 
 @end
 
 @implementation HLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.openALPrompter = [[HLOpenALPrompter alloc] init];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)play:(id)sender {
+    [self.openALPrompter playSoundNamed:@"recording_start"];
 }
 
 @end
