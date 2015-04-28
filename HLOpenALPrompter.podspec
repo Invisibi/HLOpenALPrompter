@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HLOpenALPrompter"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "HLOpenALPrompter is a wrapper for playing sound by OpenAL"
   s.description      = <<-DESC
                        HLOpenALPrompter let you easily play sound through OpenAL.

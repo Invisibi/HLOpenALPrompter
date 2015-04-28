@@ -236,7 +236,7 @@ static NSMutableDictionary *soundBuffers;
     [self playSoundNamed:name after:0.f looping:NO completion:completion];
 }
 
-- (void)playSoundNamed:(NSString *)name after:(CGFloat)time looping:(BOOL)looping completion:(HLOpenALPrompterCompletion)completion {
+- (void)playSoundNamed:(NSString *)name after:(NSTimeInterval)time looping:(BOOL)looping completion:(HLOpenALPrompterCompletion)completion {
     HLOpenALOperation *op = [HLOpenALOperation operationWithSound:name after:time looping:looping];
     op.completionBlock = ^{
         dispatch_sync(dispatch_get_main_queue(), ^{

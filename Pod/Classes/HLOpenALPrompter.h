@@ -17,7 +17,7 @@ typedef void(^HLOpenALPrompterCompletion)();
 
 - (void)playSoundNamed:(NSString *)name completion:(HLOpenALPrompterCompletion)completion;
 
-- (void)playSoundNamed:(NSString *)name after:(CGFloat)time looping:(BOOL)looping completion:(HLOpenALPrompterCompletion)completion;
+- (void)playSoundNamed:(NSString *)name after:(NSTimeInterval)time looping:(BOOL)looping completion:(HLOpenALPrompterCompletion)completion;
 
 - (void)stopSound;
 
